@@ -1,0 +1,12 @@
+platform :ios, '13.0'
+use_frameworks!
+
+target 'StyleableLabel_Example' do
+  pod 'StyleableLabel', :path => '../'
+
+  target 'StyleableLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
