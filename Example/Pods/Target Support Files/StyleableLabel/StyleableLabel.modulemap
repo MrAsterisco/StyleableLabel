@@ -1,0 +1,6 @@
+framework module StyleableLabel {
+  umbrella header "StyleableLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

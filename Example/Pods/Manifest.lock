@@ -1,0 +1,16 @@
+PODS:
+  - StyleableLabel (1.0.0)
+
+DEPENDENCIES:
+  - StyleableLabel (from `../`)
+
+EXTERNAL SOURCES:
+  StyleableLabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  StyleableLabel: 752b6922d38e22167eeaf4b690e590c44fc47df2
+
+PODFILE CHECKSUM: 6a3ca997bab64221dceb0ee308319f08e2f96d14
+
+COCOAPODS: 1.9.1
