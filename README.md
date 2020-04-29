@@ -21,8 +21,9 @@ pod 'StyleableLabel'
 StyleableLabel can be installed through [Carthage](https://github.com/Carthage/Carthage) by adding this line to your Cartfile:
 
 ```
-github 'MrAsterisco/StyleableLabel'
+github "MrAsterisco/StyleableLabel"
 ```
+Then follow the [usual procedure](https://github.com/Carthage/Carthage#if-youre-building-for-ios-tvos-or-watchos) to include `StyleableLabel.framework` in your target(s).
 
 ## Example Project
 This library includes a sample project that lets you play around with a StyleableLabel. The example project uses [Combine](https://developer.apple.com/documentation/combine) and runs on iOS 13.4 or later. The main view controller leverages AutoLayout to automatically resize a table view header based on the StyleableLabel content and directional insets.
