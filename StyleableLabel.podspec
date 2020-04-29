@@ -19,7 +19,7 @@ padding around the text, as well as exposing the CALayer corner radius property 
   s.homepage         = 'https://github.com/mrasterisco/StyleableLabel'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'mrasterisco' => 'a.moiso@pillohealth.com' }
-  s.source           = { :git => 'https://github.com/mrasterisco/StyleableLabel.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/mrasterisco/StyleableLabel.git', :tag => "v"+s.version.to_s }
 
   s.swift_version = '5.1'
   s.platform = :ios
