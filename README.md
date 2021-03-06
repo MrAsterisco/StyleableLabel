@@ -26,6 +26,13 @@ github "MrAsterisco/StyleableLabel"
 ```
 Then follow the [usual procedure](https://github.com/Carthage/Carthage#if-youre-building-for-ios-tvos-or-watchos) to include `StyleableLabel.framework` in your target(s).
 
+### Swift Package Manager
+To install RxFireAuth in your project, add this repository as dependency using Xcode or add the following in your `Package.swift` file:
+
+```swift
+.package(url: "https://github.com/MrAsterisco/StyleableLabel")
+```
+
 ## Example Project
 This library includes a sample project that lets you play around with a StyleableLabel. The example project uses [Combine](https://developer.apple.com/documentation/combine) and runs on iOS 13.4 or later. The main view controller leverages AutoLayout to automatically resize a table view header based on the StyleableLabel content and directional insets. You can play around with the values and see them reflected into the label immediately.
 
